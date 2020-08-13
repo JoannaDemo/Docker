@@ -4,3 +4,9 @@ docker container exec -it <CONTAINER ID> bash
 ps -ef
 docker container run --detach --publish 8080:80 --name nginx nginx
 docker container run --detach --publish 8081:27017 --name mongo mongo
+docker container ls 
+docker container stop
+docker system prune
+
+https://www.youtube.com/channel/UCiIZFMKoZywK43SyHqElx8g
+
