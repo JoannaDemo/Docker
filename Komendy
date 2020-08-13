@@ -1,0 +1,3 @@
+docker container run -t ubuntu top
+docker container ls
+docker container exec -it <CONTAINER ID> bash
